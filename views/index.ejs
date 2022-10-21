@@ -11,28 +11,7 @@
   <body>
     <div class="grid grid-cols-6">
       <div class="col-start-3 col-span-2">
-        <%- include("header.ejs") %>
-          <%- include("todos.ejs") %>
-    <!-- <br />
-    <h3>Todos :</h3>
-    <table>
-      <tr>
-        <th>Sr. No</th>
-        <th>Title</th>
-        <th>Due Date</th>
-        <th>Completed ?</th>
-      </tr>
-
-      <% todos.map((todoItem, index) => { %>
-      <tr>
-        <td><%= index %></td>
-        <td><%= todoItem.title %></td>
-        <td><%= todoItem.dueDate %></td>
-        <td><%= todoItem.completed %></td>
-      </tr>
-      <% }) %>
-    </table>
-    <br />
-    <footer><%- include("footer.ejs") %></footer> -->
+        <header><%- include("header.ejs") %></header>
+          <%- include("todos.ejs") %> 
   </body>
 </html>
